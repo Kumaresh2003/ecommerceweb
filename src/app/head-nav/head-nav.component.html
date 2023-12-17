@@ -1,0 +1,46 @@
+<div class="head-nav">
+ <button class="btn " (click)="Mynavbar()">  <i class="fa-solid fa-bars"></i>All</button> 
+ <button class="btn"><a >Moblies</a></button>
+ <button class="btn"><a href="">Today's Deals</a> </button>
+ <button class="btn"><a href="">Sports Shoes</a></button>
+ <button class="btn"><a href="">Appliances</a></button>
+ <button class="btn"><a href="">Electronics</a></button>
+ <button class="btn"><a href="">Beauty Toys</a></button>
+
+ <img src="assets/sidenav-image/logo.jpg">
+ <span>Shoping Mode/easy</span>
+</div>
+
+<div class="sidenav" id="mySidenav" *ngIf="showMe ">
+    <h3 class="sidename">Producets</h3>
+    <ul>
+        
+       <span  (click)="Mobliesbar()">Moblies</span>
+        <ul class="submenu" *ngIf="show">
+            <li><a [routerLink]="['/iphone']" routerLinkActive="active" >iPhone</a></li>
+            <li><a [routerLink]="['/galaxy']" routerLinkActive="active">Samsung Galaxy</a></li>
+            <li><a href="">Redmi</a></li>
+            <li><a  [routerLink]="['/poco']" routerLinkActive="active">Poco</a></li>
+            <li><a href="">realme</a></li>
+        </ul>
+        
+        <li class="li"  (click)="Mynavbar1()"> <span>Appliances</span>
+        <ul *ngIf="showMe1 " >
+            <li><a href="">SmartTV</a></li>
+            <li><a href="">home appliances</a></li>
+        </ul>
+        </li>
+        <li class="li" (click)="myElectronics()"><span >Electronics</span> 
+        <ul *ngIf="showelectronics">
+            <li><a href="">Smartwatch</a></li>
+            <li><a href="">Headsets</a></li>
+            <li><a href="">Laptop</a></li>
+            <li><a href="">MacBook</a></li>
+            <li><a href="">iPad</a></li>
+        </ul>
+        </li>
+        <li class="li"><a href="">Beauty Toys</a></li>
+        <li class="li"><a href="">Sports Shoes</a></li>
+    </ul>
+    </div>
+    <router-outlet></router-outlet>

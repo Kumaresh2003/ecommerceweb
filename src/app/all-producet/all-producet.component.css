@@ -1,0 +1,15 @@
+button{
+    width: 90px;
+    height: 90px;
+    color:white;
+    background-color:red;
+    border-radius: 50%;
+    margin: 40px;
+    border: 2px solid red;
+  
+    
+}
+#all{
+  margin-left: 70px;
+}
+
