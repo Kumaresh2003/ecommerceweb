@@ -4,7 +4,7 @@ import { IphoneComponent } from './iphone/iphone.component';
 import { HeadNavComponent } from './head-nav/head-nav.component';
 import { GalaxyComponent } from './galaxy/galaxy.component';
 import { PocoComponent } from './poco/poco.component';
-import { HomeComponent } from './home/home.component';
+
 
 const routes: Routes = [
   {
@@ -14,10 +14,9 @@ const routes: Routes = [
   { path: 'head-nav', component:HeadNavComponent},
 { path: 'galaxy', component:GalaxyComponent}, 
 { path: 'poco', component:PocoComponent},
-{ path: 'home', component:HomeComponent},
 
-{ path: 'Home', component:HomeComponent}, 
-{path:'',redirectTo:'/home',pathMatch:'full'}
+
+
 
 
 
