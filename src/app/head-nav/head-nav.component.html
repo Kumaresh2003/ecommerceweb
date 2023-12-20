@@ -19,9 +19,11 @@
         <ul class="submenu" *ngIf="show">
             <li><a [routerLink]="['/iphone']" routerLinkActive="active" >iPhone</a></li>
             <li><a [routerLink]="['/galaxy']" routerLinkActive="active">Samsung Galaxy</a></li>
-            <li><a href="">Redmi</a></li>
+            <li><a [routerLink]="['/redmi']" routerLinkActive="active">Redmi</a></li>
             <li><a  [routerLink]="['/poco']" routerLinkActive="active">Poco</a></li>
-            <li><a href="">realme</a></li>
+            <li><a [routerLink]="['/realme']" routerLinkActive="active">realme</a></li>
+            <li><a  [routerLink]="['/oppo']" routerLinkActive="active">Oppo</a></li>
+            <li><a  [routerLink]="['/vivo']" routerLinkActive="active">Vivo</a></li>
         </ul>
         
         <li class="li"  (click)="Mynavbar1()"> <span>Appliances</span>
