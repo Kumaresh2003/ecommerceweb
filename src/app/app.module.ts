@@ -14,6 +14,8 @@ import { VivoComponent } from './vivo/vivo.component';
 import { RealmeComponent } from './realme/realme.component';
 import { OppoComponent } from './oppo/oppo.component';
 import { HomeHeadComponent } from './home-head/home-head.component';
+import { SmartTvComponent } from './smart-tv/smart-tv.component';
+import { HomeAppliancesComponent } from './home-appliances/home-appliances.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,9 @@ import { HomeHeadComponent } from './home-head/home-head.component';
     RealmeComponent,
     OppoComponent,
     HomeHeadComponent,
+    SmartTvComponent,
+    HomeAppliancesComponent,
+
   
   ],
   imports: [

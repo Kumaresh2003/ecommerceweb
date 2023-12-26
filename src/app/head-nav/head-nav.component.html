@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
 <div class="head-nav">
  <button class="btn " (click)="Mynavbar()">  <i class="fa-solid fa-bars"></i>All</button> 
  <button class="btn"><a >Moblies</a></button>
@@ -12,14 +21,15 @@
 </div>
 
 <div class="sidenav" id="mySidenav" *ngIf="showMe ">
-    <h3 class="sidename">Producets</h3>
-    <ul>
-        
+    <span class="sidename"  >Producets</span>
+
+    <ul id="producetnav" style="margin-top: 20px;">
+        <i class="fa-solid fa-phone-intercom" style="color: aliceblue;"></i>
        <span  (click)="Mobliesbar()">Moblies</span>
         <ul class="submenu" *ngIf="show">
             <li><a [routerLink]="['/iphone']" routerLinkActive="active" >iPhone</a></li>
             <li><a [routerLink]="['/galaxy']" routerLinkActive="active">Samsung Galaxy</a></li>
-            <li><a [routerLink]="['/redmi']" routerLinkActive="active">Redmi</a></li>
+            <li><a  [routerLink]="['/redmi']" routerLinkActive="active">Redmi</a></li>
             <li><a  [routerLink]="['/poco']" routerLinkActive="active">Poco</a></li>
             <li><a [routerLink]="['/realme']" routerLinkActive="active">realme</a></li>
             <li><a  [routerLink]="['/oppo']" routerLinkActive="active">Oppo</a></li>
@@ -28,7 +38,7 @@
         
         <li class="li"  (click)="Mynavbar1()"> <span>Appliances</span>
         <ul *ngIf="showMe1 " >
-            <li><a href="">SmartTV</a></li>
+            <li><a [routerLink]="['/smart-tv']" routerLinkActive="active">SmartTV</a></li>
             <li><a href="">home appliances</a></li>
         </ul>
         </li>
@@ -45,4 +55,6 @@
         <li class="li"><a href="">Sports Shoes</a></li>
     </ul>
     </div>
+    </body>
+</html>
     <router-outlet></router-outlet>

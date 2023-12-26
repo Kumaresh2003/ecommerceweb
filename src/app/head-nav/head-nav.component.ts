@@ -10,6 +10,7 @@ export class HeadNavComponent  {
   show=false;
   showMe1=false;
   showelectronics=false;
+
   constructor() { }
   Mynavbar(){
    
@@ -26,6 +27,7 @@ export class HeadNavComponent  {
 myElectronics(){
   this.showelectronics=!this.showelectronics;
 }
+
   }
  
 

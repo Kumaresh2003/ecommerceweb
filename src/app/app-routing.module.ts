@@ -8,6 +8,7 @@ import { RedmiComponent } from './redmi/redmi.component';
 import { VivoComponent } from './vivo/vivo.component';
 import { OppoComponent } from './oppo/oppo.component';
 import { RealmeComponent } from './realme/realme.component';
+import { SmartTvComponent } from './smart-tv/smart-tv.component';
 
 
 const routes: Routes = [
@@ -21,8 +22,8 @@ const routes: Routes = [
 { path: 'redmi', component:RedmiComponent},
 { path: 'vivo', component:VivoComponent},
 { path: 'oppo', component:OppoComponent},
-{ path: 'realme', component:RealmeComponent}
-
+{ path: 'realme', component:RealmeComponent},
+{ path: 'smart-tv', component:SmartTvComponent}
 
 
 
