@@ -1,0 +1,59 @@
+
+.card{
+    width: 100%;
+    height: 340px;
+        
+        display: inline-block;
+        margin-right: 35px;
+        margin-top: 50px;
+        
+    }
+    img{
+        width: 20%;
+    height: 50%;
+    margin-left: 10px;
+    margin-top: 30px;
+    }
+    h4{
+     float: right;
+     margin-right:33%;
+    margin-top: -14%;
+    color: blue;
+     
+    }
+    p{
+        float: right;
+     margin-top: -15%;
+    margin-right: 10%;
+      
+    font-size: 25px;
+    }
+    a{
+    margin-left: 35%;
+    
+    
+    }
+    ul{
+        float: right;
+        margin-right: 39%;
+        margin-top: -11%;
+        justify-content: space-between;
+    }
+.image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+      
+ span{
+    font-size:15px;
+    margin-top: 2px;
+    background-color: black;
+ margin-left: -4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    
+
+ }       

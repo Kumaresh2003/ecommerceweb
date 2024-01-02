@@ -12,7 +12,7 @@
  <button class="btn"><a >Moblies</a></button>
  <button class="btn"><a href="">Today's Deals</a> </button>
  <button class="btn"><a href="">Sports Shoes</a></button>
- <button class="btn"><a href="">Appliances</a></button>
+ <button class="btn"><a  [routerLink]="['/appliances']" routerLinkActive="active">Appliances</a></button>
  <button class="btn"><a href="">Electronics</a></button>
  <button class="btn"><a href="">Beauty Toys</a></button>
 
@@ -39,20 +39,20 @@
         <li class="li"  (click)="Mynavbar1()"> <span>Appliances</span>
         <ul *ngIf="showMe1 " >
             <li><a [routerLink]="['/smart-tv']" routerLinkActive="active">SmartTV</a></li>
-            <li><a href="">home appliances</a></li>
+            <li><a [routerLink]="['/home-appliances']" routerLinkActive="active">home appliances</a></li>
         </ul>
         </li>
         <li class="li" (click)="myElectronics()"><span >Electronics</span> 
         <ul *ngIf="showelectronics">
-            <li><a href="">Smartwatch</a></li>
-            <li><a href="">Headsets</a></li>
-            <li><a href="">Laptop</a></li>
-            <li><a href="">MacBook</a></li>
-            <li><a href="">iPad</a></li>
+            <li><a [routerLink]="['/smartwatch']" routerLinkActive="active" >Smartwatch</a></li>
+            <li><a [routerLink]="['/headphones']" routerLinkActive="active" >Headphones</a></li>
+            <li><a [routerLink]="['/laptop']" routerLinkActive="active">Laptop</a></li>
+            <li><a [routerLink]="['/macbook']" routerLinkActive="active">MacBook</a></li>
+            <li><a [routerLink]="['/ipad']" routerLinkActive="active">iPad</a></li>
         </ul>
         </li>
         <li class="li"><a href="">Beauty Toys</a></li>
-        <li class="li"><a href="">Sports Shoes</a></li>
+        <li class="li"><a [routerLink]="['shoes']">Sports Shoes</a></li>
     </ul>
     </div>
     </body>
