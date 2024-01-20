@@ -7,14 +7,15 @@
     <link src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    
 <div class="head-nav">
  <button class="btn " (click)="Mynavbar()">  <i class="fa-solid fa-bars"></i>All</button> 
- <button class="btn"><a >Moblies</a></button>
- <button class="btn"><a href="">Today's Deals</a> </button>
- <button class="btn"><a href="">Sports Shoes</a></button>
+ <button class="btn"><a [routerLink]="['/all-moblies']" routerLinkActive="active" >Moblies</a></button>
+ <button class="btn"><a [routerLink]="['/today-deals']" routerLinkActive="active" >Today's Deals</a> </button>
+ <button class="btn"><a  [routerLink]="['/shoes']" routerLinkActive="active">Sports Shoes</a></button>
  <button class="btn"><a  [routerLink]="['/appliances']" routerLinkActive="active">Appliances</a></button>
- <button class="btn"><a href="">Electronics</a></button>
- <button class="btn"><a href="">Beauty Toys</a></button>
+ <button class="btn"><a  [routerLink]="['/all-electronics']" routerLinkActive="active">Electronics</a></button>
+ <button class="btn"><a [routerLink]="['/toys']" routerLinkActive="active">Beauty Toys</a></button>
 
  <img src="assets/sidenav-image/logo.jpg">
  <span>Shoping Mode/easy</span>
@@ -51,8 +52,9 @@
             <li><a [routerLink]="['/ipad']" routerLinkActive="active">iPad</a></li>
         </ul>
         </li>
-        <li class="li"><a href="">Beauty Toys</a></li>
+        <li class="li"><a [routerLink]="['/toys']" routerLinkActive="active">Beauty Toys</a></li>
         <li class="li"><a [routerLink]="['shoes']">Sports Shoes</a></li>
+        
     </ul>
     </div>
     </body>

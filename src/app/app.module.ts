@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HeadNavComponent } from './head-nav/head-nav.component';
-import { AllProducetComponent } from './all-producet/all-producet.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { IphoneComponent } from './iphone/iphone.component';
 import { GalaxyComponent } from './galaxy/galaxy.component';
@@ -23,6 +22,16 @@ import { MacbookComponent } from './macbook/macbook.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { AppliancesComponent } from './appliances/appliances.component';
 import { ShoesComponent } from './shoes/shoes.component';
+import { ToysComponent } from './toys/toys.component';
+import { ContactComponent } from './contact/contact.component';
+import { AllMobliesComponent } from './all-moblies/all-moblies.component';
+import { HomeComponent } from './home/home.component';
+import { AllElectronicsComponent } from './all-electronics/all-electronics.component';
+import { TodayDealComponent } from './today-deal/today-deal.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -30,7 +39,7 @@ import { ShoesComponent } from './shoes/shoes.component';
     AppComponent,
     
     HeadNavComponent,
-    AllProducetComponent,
+   
     HomeBannerComponent,
     IphoneComponent,
     GalaxyComponent,
@@ -49,6 +58,14 @@ import { ShoesComponent } from './shoes/shoes.component';
     IpadComponent,
     AppliancesComponent,
     ShoesComponent,
+    ToysComponent,
+    ContactComponent,
+    AllMobliesComponent,
+    HomeComponent,
+    AllElectronicsComponent,
+    TodayDealComponent,
+    RegisterComponent,
+    LoginComponent,
 
 
   
@@ -56,6 +73,9 @@ import { ShoesComponent } from './shoes/shoes.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule, 
+    HttpClientModule,
+    FormsModule
   
   ],
   providers: [],

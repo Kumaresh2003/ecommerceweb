@@ -17,9 +17,17 @@ import { MacbookComponent } from './macbook/macbook.component';
 import { IpadComponent } from './ipad/ipad.component';
 import { AppliancesComponent } from './appliances/appliances.component';
 import { ShoesComponent } from './shoes/shoes.component';
+import { ToysComponent } from './toys/toys.component';
+import { AllMobliesComponent } from './all-moblies/all-moblies.component';
+import { HomeComponent } from './home/home.component';
+import { AllElectronicsComponent } from './all-electronics/all-electronics.component';
+import { TodayDealComponent } from './today-deal/today-deal.component';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes: Routes = [
+  {path:'',redirectTo:'/home',pathMatch:'full'},
+  {path:'home',component:HomeComponent},
 {path :'iphone', component:IphoneComponent} , 
 { path: 'head-nav', component:HeadNavComponent},
 { path: 'galaxy', component:GalaxyComponent}, 
@@ -36,13 +44,12 @@ const routes: Routes = [
 {path:'macbook',component:MacbookComponent},
 {path:'ipad',component:IpadComponent},
 {path:'appliances',component:AppliancesComponent},
-{path:'shoes',component:ShoesComponent}
-
-
-
-
-
-
+{path:'shoes',component:ShoesComponent},
+{path:'toys',component:ToysComponent},
+{path:'all-moblies',component:AllMobliesComponent},
+{path:'all-electronics',component:AllElectronicsComponent},
+{path:'today-deals',component:TodayDealComponent},
+{path:'register',component:RegisterComponent}
 ];
 
 @NgModule({

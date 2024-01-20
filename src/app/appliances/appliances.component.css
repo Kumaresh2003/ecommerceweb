@@ -2,4 +2,62 @@
     height: 450px;
     width: 100%;
     margin-top: 50px;
+    
+}
+.item{
+    width: 24%;
+  height: 180px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 250px;
+    display: inline-block;
+}
+.item img{
+    width: 50%;
+    margin-top: 30px;
+    border-radius:5px;
+   margin-left: 60px;
+}
+h4{
+    margin-left: 90px;
+    margin-top: 30px;
+  
+}
+h5{
+ 
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+a{
+ float: right;
+ 
+  margin-right: 25%;
+
+  text-decoration: none;
+
+    
+}
+.producet{
+    width: 100%;
+}
+#tv{
+    width: 5%;
+    height: 7%;
+    cursor: pointer;
+    margin-left: 70%;
+    margin-top: 20px;
+}
+#home-appliances{
+    width: 5%;
+    height: 7%;
+    cursor: pointer;
+  margin-left: -36%;
+}
+#Washing{
+    width: 5%;
+    height: 8%;
+    cursor: pointer;
+    margin-left: -38%;
+    margin-top: 10px;
 }

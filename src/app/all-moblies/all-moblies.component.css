@@ -1,0 +1,23 @@
+ .container{
+  
+    background-color: azure;
+    background-size: cover;
+    
+ }
+ h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+    text-align:justify;
+}
+h5{
+    cursor: pointer;
+    color: rgb(13, 9, 252);
+    display: inline-block;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+}

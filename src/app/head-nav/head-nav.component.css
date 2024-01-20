@@ -14,12 +14,13 @@ margin-left: 20px;
     background-color: rgb(33, 33, 39);
     height: 40px;
 position: relative;
+justify-content: space-between;
 }
 .head-nav img{
     width: 50px;
     height: 40px;
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 250px;
 }
 span{
     color: white;
@@ -33,9 +34,23 @@ a{
     background-color: rgb(27, 25, 25);
     color: white;
     width: 18%;
-    position: fixed;
+    position: absolute;
     min-height: 100vh;
+   overflow-y:scroll;
+   overflow:visible;
     
+}
+.sidenav::-webkit-scrollbar {
+    width: 12px;
+}
+.sidenav::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 10px;
+}
+
+.sidenav::-webkit-scrollbar-track {
+    background-color: #333333;
+    border-radius: 10px;
 }
 .sidename{
 padding-top: 10px;
@@ -56,8 +71,9 @@ i{
     
 }
 span{
-    font-size: 20px;
+    font-size: 17px;
 cursor:pointer;
+
 }
 #icon{
     font-size: 7px;

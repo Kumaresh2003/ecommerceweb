@@ -59,15 +59,49 @@ button{
     border: 2px solid orange;
 }
 .button-login{
-    margin-left: 20%;
+   margin-left:10px;
+  
+    margin-top: -45px;
+  
     height: 30px;
     width: 70px;
     border-radius: 10px;
-    background-color: green;
-    border: 2px solid green;
+    background-color:lightseagreen;
+    border: 2px solid lightseagreen;
     
 }
 a{
     text-decoration: none;
     color: white;
+}
+#card-link{
+    margin-left:10%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+span{
+font-size: 15px;
+cursor: pointer;
+
+}
+i{
+    color: white;
+}
+@media screen and (max-width:990px) {
+  .head img{
+    width: 30px;
+    height: 20px;
+ margin-top: -8px;
+    margin-left:40px;
+  }
+  #head-name{
+    font-size: 15px;
+ 
+   
+  }
+  #card-link{
+    margin-top: -60px;
+  }
+ 
 }

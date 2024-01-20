@@ -1,9 +1,12 @@
 <div class="head">
-    <img src="assets/sidenav-image/n-logo.jpg">
-    <span>NALLMMAL RAMASAMY</span>
+    <img src="assets/sidenav-image/n-logo.jpg" [routerLink]="['/home']">
+    <span id="head-name">NALLMMAL RAMASAMY</span>
    <input type="text" placeholder="Search  for Producet" style="text-align: center;" >
     <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    <button class="button-login"><a href="">Login</a>
-        <i class="fa-solid fa-user"></i>    
+        <i class="fa-solid fa-cart-shopping" id="card-link"></i> 
+        <span>Cart</span>
+    <button class="button-login"><a [routerLink]="['/register']">Login</a>
+        <i class="fa-solid fa-user" [routerLink]="['/register']"></i>    
     </button>
+
 </div>
