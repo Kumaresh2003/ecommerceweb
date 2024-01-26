@@ -40,6 +40,10 @@ a{
    overflow:visible;
     
 }
+#mySidenav{
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+}
 .sidenav::-webkit-scrollbar {
     width: 12px;
 }
@@ -87,3 +91,49 @@ cursor:pointer;
     color: orange;
     
 }
+@media(max-width:1283px){
+    #span{
+        display: none;
+    }
+    img{
+        display: none;
+    }
+}
+@media(max-width:1128px){
+ img {
+    display: none;
+}
+#span{
+    display: none;
+}
+}
+@media(max-width:830px){
+    .head-nav button{
+        font-size: 13px;
+        margin-left: -5px;
+    
+    }
+   
+}
+@media(max-width:627px){
+#all{
+  position: absolute;
+  top:-45px;
+  font-size: 23px;
+  display:block;
+}
+#name{
+ display: none;
+ 
+}
+#but:hover{
+    width: 0%;
+    height: 0%;
+    border: 2px solid transparent;
+   
+}
+#toy{
+    display: none;
+}
+}
+

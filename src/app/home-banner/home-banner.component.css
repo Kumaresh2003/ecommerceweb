@@ -53,3 +53,50 @@ h4{
   width: 100%;
   height: 340px;
 }
+@media(max-width:1234px){
+  .card{
+    width: 19%;
+  }
+}
+@media(max-width:1034px){
+  .card{
+    width: 25%;
+  }
+  .banner img{
+    height: 250px;
+  }
+  .carousel-inner img{
+    height: 250px;
+  }
+}
+@media(max-width:884px){
+  .card{
+    width: 37%;
+    margin-left: 20px;
+    height: 270px;
+  }
+  .banner img{
+    height: 270px;
+  }
+  .carousel-inner img{
+    height: 270px;
+  }
+}
+@media(max-width:484px){
+  .card{
+    width: 100%;
+  
+    height: 270px;
+  }
+  .banner img{
+    height: 230px;
+  }
+  .carousel-inner img{
+    height: 230px;
+    width: 100%;
+  }
+.card-img-top{
+  width: 30%;
+  margin-left: 130px;
+}
+}

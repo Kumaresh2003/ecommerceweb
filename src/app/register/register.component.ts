@@ -87,7 +87,7 @@ export class RegisterComponent implements OnInit {
     };
     this.http.post("http://localhost:8080/user/api/register",bodydata,{responseType:'text'}).subscribe((resultData: any)=>{
 console.log(resultData);
-alert("sucessfuly");
+alert("Registeration sucessfuly");
     });
   }
 

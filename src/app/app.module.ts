@@ -34,6 +34,10 @@ import {HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,6 +70,9 @@ import { LoginComponent } from './login/login.component';
     TodayDealComponent,
     RegisterComponent,
     LoginComponent,
+   
+   
+
 
 
   
@@ -75,7 +82,8 @@ import { LoginComponent } from './login/login.component';
     AppRoutingModule,
     ReactiveFormsModule, 
     HttpClientModule,
-    FormsModule
+    FormsModule,
+
   
   ],
   providers: [],

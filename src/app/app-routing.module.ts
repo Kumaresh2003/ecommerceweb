@@ -49,7 +49,8 @@ const routes: Routes = [
 {path:'all-moblies',component:AllMobliesComponent},
 {path:'all-electronics',component:AllElectronicsComponent},
 {path:'today-deals',component:TodayDealComponent},
-{path:'register',component:RegisterComponent}
+{path:'register',component:RegisterComponent},
+
 ];
 
 @NgModule({

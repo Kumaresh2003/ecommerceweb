@@ -61,3 +61,100 @@ a{
     margin-left: -38%;
     margin-top: 10px;
 }
+#samsung{
+   width: 35%;
+   height: 70%;
+}
+#samsung1{
+    width: 35%;
+    height: 70%;
+ }
+ #bajaj{
+    width: 35%;
+    height: 70%;
+ }
+@media(max-width:1264px){
+    a{
+        font-size: 13px;
+        margin-left: 15px;
+    }
+}
+@media(max-width:1204px){
+    .producet{
+        display: none;
+    }
+  
+}
+@media(max-width:1024px){
+    #samsung{
+        height: 90px;
+    }
+}
+@media(max-width:886px){
+    .banner img{
+        height: 250px;
+    }
+
+}
+@media(max-width:798px){
+    .item{
+    width: 34%;
+    margin-left: 60px;
+    }.item img{
+        height: 50%;
+        width: 70%;
+    }
+ 
+}@media(max-width:578px){
+    .banner img{
+        height: 180px;
+    }
+    .item{
+        width: 100%;
+
+    }
+    h4{
+        margin-left: 210px;
+        margin-top: 90px;
+    }
+    .item img{
+        width: 40%;
+        height: 19%;
+      position: absolute;
+    margin-left: -35px;
+    }
+    h5{
+        position: absolute;
+        margin-left: 190px;
+        margin-top: 40px;
+    }
+    #samsung{
+        height:150px;
+        width: 120px;
+    }
+    #samsung1{
+        height:150px;
+        width: 120px;
+    }
+    #bajaj{
+        height:150px;
+        width: 120px;
+    }
+}
+   @media(max-width:450px) {
+  h4{
+    position: absolute;
+    margin-top: 120px;
+
+  }
+  h5{
+   margin-right: 20px;
+   font-size: 15px;
+  }
+  .banner img{
+    height: 150px;
+  }
+ 
+  
+   }
+

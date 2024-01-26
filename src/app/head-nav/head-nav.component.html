@@ -9,16 +9,16 @@
 <body>
     
 <div class="head-nav">
- <button class="btn " (click)="Mynavbar()">  <i class="fa-solid fa-bars"></i>All</button> 
+ <button class="btn " id="but" >  <i class="fa-solid fa-bars" id="all"  (click)="Mynavbar()"></i><span id="name">All</span></button> 
  <button class="btn"><a [routerLink]="['/all-moblies']" routerLinkActive="active" >Moblies</a></button>
  <button class="btn"><a [routerLink]="['/today-deals']" routerLinkActive="active" >Today's Deals</a> </button>
- <button class="btn"><a  [routerLink]="['/shoes']" routerLinkActive="active">Sports Shoes</a></button>
+ <button class="btn" ><a  [routerLink]="['/shoes']" routerLinkActive="active">Sports Shoes</a></button>
  <button class="btn"><a  [routerLink]="['/appliances']" routerLinkActive="active">Appliances</a></button>
  <button class="btn"><a  [routerLink]="['/all-electronics']" routerLinkActive="active">Electronics</a></button>
- <button class="btn"><a [routerLink]="['/toys']" routerLinkActive="active">Beauty Toys</a></button>
+ <button class="btn" id="toy"><a [routerLink]="['/toys']" routerLinkActive="active">Beauty Toys</a></button>
 
  <img src="assets/sidenav-image/logo.jpg">
- <span>Shoping Mode/easy</span>
+ <span id="span">Shoping Mode/easy</span>
 </div>
 
 <div class="sidenav" id="mySidenav" *ngIf="showMe ">
